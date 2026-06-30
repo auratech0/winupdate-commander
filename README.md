@@ -30,14 +30,3 @@ A standalone Windows Update management tool with a graphical interface. Search, 
 1. Download `WinUpdateCommander.exe` from the [Releases](https://github.com/auratech0/winupdate-commander/releases) page.
 2. Run it. If prompted by User Account Control, allow the elevation.
 3. Use the tabs to search, install, hide updates, or configure automation.
-
-### Running from source
-
-If you prefer to build it yourself:
-
-1. Save `WinUpdateCommander.cs` to a folder.
-2. Open a command prompt in that folder.
-3. Compile with the .NET Framework C# compiler (included with the framework):
-
-   ```cmd
-   C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /reference:System.dll /reference:System.Drawing.dll /reference:System.Windows.Forms.dll /reference:System.Management.dll /reference:System.ServiceProcess.dll /reference:Microsoft.CSharp.dll /reference:System.Core.dll /out:WinUpdateCommander.exe WinUpdateCommander.cs
