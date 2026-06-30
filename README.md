@@ -1,4 +1,4 @@
-# WinUpdate Commander
+# WinUpdate Commander (WUC)
 
 A standalone Windows Update management tool with a graphical interface. Search, install, hide, and control updates without using the Settings app. Supports Windows 7 SP1 through Windows 11.
 
